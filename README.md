@@ -88,3 +88,4 @@ After doing this, I was able to extend this to work with multiple LEDs!
 
 https://github.com/user-attachments/assets/051fd605-8ccc-4d97-9e67-a0f030736416
 
+In the video, the values that I checked as a threshhold were a little too high! I lowered them later from a threshold pin value from 60 to 55. This stopped the flickering seen in the video. 
