@@ -1,5 +1,5 @@
 # Road Trippin' 🚗🏞🏝
-Interactive Road Trip poster you can hang on your wall! Add pins for places you have been to and watch them light up! Check out my [blog posts](https://jakasaurusrex.github.io/CakeBlog/) to learn more about it! 
+Interactive Road Trip poster you can hang on your wall! Add pins for places you have been to and watch the states you have visited light up! Check out my [blog posts](https://jakasaurusrex.github.io/CakeBlog/) to learn more about it! 
 
 ***
 
