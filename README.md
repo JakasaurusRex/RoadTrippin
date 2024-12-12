@@ -17,6 +17,8 @@ https://github.com/user-attachments/assets/3a676e5f-96ef-4e44-b18f-90c4ee2a2c48
 
 https://github.com/user-attachments/assets/1af5664a-9a55-464c-b7fb-2d921442d5cf
 
+https://github.com/user-attachments/assets/1d52dfcd-264f-49d4-b72b-c0ab49cd1998
+
 ## What is this? 🎨
 
 This is an interactive poster made for the final project for Creative Embedded systems. We were tasked to use our knowledge and skills acquired by working with the ESP32 over the semester to design a project that has interactive features and sits in an enclosure. My goal was to create a interactive poster inspired by Crafted Stories by Irene Posch, a project that I investigated earlier in the semester for our related works project! The interactive poster would allow you to place pins on a map to chart out a roadtrip on a map of the east coast states. Placing pins in holes in states would light up the state indicating you had been there. All the technical components would be contained in the back of the poster and the ESP32 is contain at the bottom allowing for you to plug in the poster.
@@ -97,4 +99,8 @@ In the video, the values that I checked as a threshhold were a little too high! 
 
 I realized when setting up the map that the circuits would not be able to be complete withour a source of electricity, like our bodys. So instead of always keeping the light on, I changed the code to keep track of when the the circuit was completed and to change the value of the light when the circuit is complete. For example, when you complete the circuit for the first time with a conductive pin, the light will turn on. Then when you pick up the pin again to remove it, you complete the circuit again and the light turns back off. 
 
-I used this to create an example with one of the states in the demo video! 
+I used this to create an example with one of the states in the demo video shown below. 
+
+https://github.com/user-attachments/assets/c8f70d38-c7c4-49fb-8d54-8e2cc2e142f2
+
+
