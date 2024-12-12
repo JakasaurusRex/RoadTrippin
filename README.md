@@ -11,7 +11,11 @@ The other file, RoadTrippin.dxf, contains the laser cutting sketch I used to cut
 
 ## The final product!!
 
-{Insert Video}
+https://github.com/user-attachments/assets/daa2bce8-5e1f-463f-a1db-0b114a8d54d9
+
+https://github.com/user-attachments/assets/3a676e5f-96ef-4e44-b18f-90c4ee2a2c48
+
+https://github.com/user-attachments/assets/1af5664a-9a55-464c-b7fb-2d921442d5cf
 
 ## What is this? 🎨
 
@@ -34,7 +38,8 @@ git clone https://github.com/JakasaurusRex/RoadTrippin.git
 3.  Laser cut and assemble the map! I used hot glue and tape to keep things in tact! Additionally, I cut out the states and then shrunk them and connected them together and cut again to create the multi-layered effect seen in my project!
 4.  Design and setup your circuit for however many states you want to be able to light up. My ESP32 only had 7 touch capacitive sensors and 7 additional pins, so I could only light 7 states. 
 5.  Hook up the circuitry to the map and setup the capacitive touch capabilties!
-6.  Set up the poster for display and plug it in!
+6.  Change the pins on the arduino program to correspond with your respective pins
+7.  Set up the poster for display and plug it in!
 
 
 ## How I made it! ⚙️✏️
@@ -88,4 +93,8 @@ After doing this, I was able to extend this to work with multiple LEDs!
 
 https://github.com/user-attachments/assets/051fd605-8ccc-4d97-9e67-a0f030736416
 
-In the video, the values that I checked as a threshhold were a little too high! I lowered them later from a threshold pin value from 60 to 55. This stopped the flickering seen in the video. 
+In the video, the values that I checked as a threshhold were a little too high! I lowered them later from a threshold pin value from 60 to 50. This stopped the flickering seen in the video. 
+
+I realized when setting up the map that the circuits would not be able to be complete withour a source of electricity, like our bodys. So instead of always keeping the light on, I changed the code to keep track of when the the circuit was completed and to change the value of the light when the circuit is complete. For example, when you complete the circuit for the first time with a conductive pin, the light will turn on. Then when you pick up the pin again to remove it, you complete the circuit again and the light turns back off. 
+
+I used this to create an example with one of the states in the demo video! 
